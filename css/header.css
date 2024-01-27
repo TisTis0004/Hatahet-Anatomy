@@ -38,7 +38,7 @@ nav ul a li div {
   position: absolute;
   width: 100%;
   height: 5px;
-  background-color: #f5f21b;
+  background-color: #f0c54f;
   transform-origin: left;
   transform: scaleX(0);
   transition: transform 0.35s 0s ease;
@@ -49,8 +49,8 @@ nav ul a li:hover > * {
 header button {
   display: inline-block;
   background-color: white;
-  color: #780ff5;
-  border: 3px solid #780ff5;
+  color: #f05f4f;
+  border: 3px solid #f05f4f;
   font-family: "Bree Serif", serif;
   padding: 0.5rem;
   letter-spacing: 2px;
@@ -66,12 +66,13 @@ header button {
 header button:hover {
   transform: translateY(-2px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  background-color: #780ff5;
+  background-color: #f05f4f;
   color: white;
 }
 header button:active {
   transform: translateY(2px);
   box-shadow: none;
-  background-color: #1b0b2f;
-  border-color: #1b0b2f;
+  background-color: #63261f;
+  border-color: #63261f;
+  /* color: #726f75; */
 }
