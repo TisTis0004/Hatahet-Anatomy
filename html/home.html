@@ -12,15 +12,27 @@
       href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lugrasimo&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <a href="#"
         ><img
-          src="../assets/new_logo.png"
+          src="../assets/logo_no_background.png"
           alt="Logo image"
           class="logo"
-          width="110px"
+          width="80px"
           height="90px"
         />
       </a>
@@ -31,12 +43,12 @@
               Home
               <div></div></li
           ></a>
-          <a href="#videos"
+          <a id="videosBtn" href="#videos"
             ><li>
               Videos
               <div></div></li
           ></a>
-          <a href="#sheets"
+          <a id="sheetsBtn" href="#sheets"
             ><li>
               Sheets
               <div></div></li
@@ -57,108 +69,113 @@
     </header>
     <main>
       <div class="welcome">
-        <h1 class="english-title">Welcome to the dog</h1>
-        <h1 class="arabic-title">اهلا بك في الكلب</h1>
-        <h2>What's New</h2>
+        <h1 class="english-title">
+          <span
+            style="
+              display: inline-block;
+              width: 100%;
+              letter-spacing: 3px;
+              font-size: 3.1rem;
+            "
+            >Welcome to</span
+          ><br style="user-select: none" />
+          <span
+            style="
+              display: inline-block;
+              width: 100%;
+              letter-spacing: 3px;
+              font-size: 1.85rem;
+            "
+          >
+            Hatahet Anatomy Official Website</span
+          >
+        </h1>
+        <h1 class="arabic-title">
+          أهلًا و سهلًا بكم
+          <span style="display: inline-block; width: 100%; font-size: 1.85rem">
+            في الصفحة الرسمية للدكتور فراس حتاحت<br />
+            لمادة علم التشريح (أناتومي)
+          </span>
+        </h1>
       </div>
-      <div class="welcome-img" draggable="false"></div>
+      <div class="welcome-img"></div>
     </main>
     <span id="videos"></span>
     <h1 class="box-title">Videos</h1>
     <div class="box-cards">
-      <div class="card">
+      <div class="card card1">
         <img
           width="100%"
           height="173px"
-          src="https://images.unsplash.com/photo-1530213786676-41ad9f7736f6?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="../assets/Skeletal cover.jpg"
           alt=""
         />
         <h2>First</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          aperiam voluptatum aliquid rerum eos temporibus rem amet non quod
-          voluptatibus alias ab, reprehenderit perspiciatis expedita, quisquam
-          earum incidunt id placeat.
-        </p>
+        <ol>
+          <li>Skeletal system</li>
+        </ol>
       </div>
-      <div class="card">
-        <img
-          width="100%"
-          height="173px"
-          src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=2531&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
-        />
+      <div class="card card2">
+        <img width="100%" height="173px" src="../assets/second.png" alt="" />
         <h2>Second</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          aperiam voluptatum aliquid rerum eos temporibus rem amet non quod
-          voluptatibus alias ab, reprehenderit perspiciatis expedita, quisquam
-          earum incidunt id placeat.
-        </p>
+        <p class="coming-soon">COMING SOON...</p>
+        <!-- <ol>
+          <li>Muscular system</li>
+          <li>Cardiovascular system</li>
+          <li>Respiratory system</li>
+          <li>Gastrointestinal system</li>
+        </ol> -->
       </div>
-      <div class="card">
-        <img
-          width="100%"
-          height="173px"
-          src="https://images.unsplash.com/photo-1508387027939-27cccde53673?q=80&w=2374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
-        />
+      <div class="card card3">
+        <img width="100%" height="173px" src="../assets/Final.png" alt="" />
         <h2>Final</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          aperiam voluptatum aliquid rerum eos temporibus rem amet non quod
-          voluptatibus alias ab, reprehenderit perspiciatis expedita, quisquam
-          earum incidunt id placeat.
-        </p>
+        <p class="coming-soon">COMING SOON...</p>
+        <!-- <ol>
+          <li>Urinary system</li>
+          <li>Reproductive system</li>
+          <li>Immune system</li>
+          <li>Nervous system</li>
+          <li>Embryology</li>
+        </ol> -->
       </div>
     </div>
     <span id="sheets"></span>
     <h1 class="box-title">Sheets</h1>
     <div class="box-cards">
-      <div class="card">
+      <div class="card card1">
         <img
           width="100%"
           height="173px"
-          src="https://images.unsplash.com/photo-1530213786676-41ad9f7736f6?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="../assets/Skeletal cover.jpg"
           alt=""
         />
         <h2>First</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          aperiam voluptatum aliquid rerum eos temporibus rem amet non quod
-          voluptatibus alias ab, reprehenderit perspiciatis expedita, quisquam
-          earum incidunt id placeat.
-        </p>
+        <ol>
+          <li>Skeletal system</li>
+        </ol>
       </div>
-      <div class="card">
-        <img
-          width="100%"
-          height="173px"
-          src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=2531&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
-        />
+      <div class="card card2">
+        <img width="100%" height="173px" src="../assets/second.png" alt="" />
         <h2>Second</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          aperiam voluptatum aliquid rerum eos temporibus rem amet non quod
-          voluptatibus alias ab, reprehenderit perspiciatis expedita, quisquam
-          earum incidunt id placeat.
-        </p>
+        <p class="coming-soon">COMING SOON...</p>
+        <!-- <ol>
+          <li>Muscular system</li>
+          <li>Cardiovascular system</li>
+          <li>Respiratory system</li>
+          <li>Gastrointestinal system</li>
+        </ol> -->
       </div>
-      <div class="card">
-        <img
-          width="100%"
-          height="173px"
-          src="https://images.unsplash.com/photo-1508387027939-27cccde53673?q=80&w=2374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
-        />
+      <div class="card card3">
+        <img width="100%" height="173px" src="../assets/Final.png" alt="" />
         <h2>Final</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          aperiam voluptatum aliquid rerum eos temporibus rem amet non quod
-          voluptatibus alias ab, reprehenderit perspiciatis expedita, quisquam
-          earum incidunt id placeat.
-        </p>
+        <p class="coming-soon">COMING SOON...</p>
+        <!-- <ol>
+          <li>Urinary system</li>
+          <li>Reproductive system</li>
+          <li>Immune system</li>
+          <li>Nervous system</li>
+          <li>Embryology</li>
+        </ol> -->
       </div>
     </div>
     <p>2</p>
@@ -172,6 +189,6 @@
     <p>2</p>
     <p>2</p>
     <p>2</p>
-    <p>2</p>
+    <script src="../script.js"></script>
   </body>
 </html>

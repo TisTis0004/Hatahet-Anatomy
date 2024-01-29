@@ -1,12 +1,16 @@
+* {
+  scroll-behavior: smooth;
+  -webkit-user-drag: none;
+}
 body {
-  background-color: #2d3250;
+  background-color: #181133;
 }
 main {
   position: relative;
   display: flex;
   flex-direction: row;
   height: 89vh;
-  background-image: linear-gradient(#858cb4, #4b5070, #2d3250);
+  background-image: linear-gradient(#2a719f, #17285c, #181133);
 }
 .welcome {
   width: 40%;
@@ -15,12 +19,19 @@ main {
   flex-direction: column;
   justify-content: space-around;
 }
+.english-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  padding-left: 40px;
+}
 .arabic-title,
 .english-title {
   font-size: 3rem;
 }
 .arabic-title {
   text-align: right;
+  font-family: "Amiri", serif;
+  font-weight: normal;
 }
 .welcome-img {
   position: absolute;
@@ -29,18 +40,27 @@ main {
   width: 60%;
   height: 89vh;
   border-radius: 0px 0px 5px 1000px;
-  background-image: url("../assets/camilo-jimenez-0yLmwcXLwLw-unsplash.jpg");
+  border-left: 5px solid #2a719f;
+  background-image: url("../assets/main_background.jpg");
   background-repeat: no-repeat;
-  background-position: top top;
+  background-position: 10% 10%;
   background-size: cover;
 }
 .box-title {
   font-size: 2.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-weight: normal; */
   text-align: center;
   margin-bottom: 6rem;
   margin-top: 6rem;
-  color: #f09850;
-  background-color: #424769;
+  color: wheat;
+  /* background-color: #4csb9e7; */
+
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1.9rem;
+  border-bottom: 3px solid #fff;
 }
 .box-cards {
   display: flex;
@@ -51,25 +71,27 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #f09850;
+  color: #ffecd6;
   width: 300px;
   height: 400px;
-  background-color: #7077a1;
+  background-color: #4cb9e7;
   margin-bottom: 20px;
   border-radius: 0px 60px 0px 60px;
   transition: border-radius 0.3s 0s ease, rotate 0.2s 0s ease,
-    box-shadow 0.2s 0s ease;
+    box-shadow 0.2s 0s ease, transform 0.2s 0s ease, filter 0.5s 0s ease;
 }
 .card img {
   border-radius: 0px 60px 0px 0px;
   transition: border-radius 0.3s 0s ease;
 }
 .card h2 {
+  font-family: "Comic Sans MS", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif, cursive;
   font-size: 1.7rem;
   width: 100%;
   text-align: center;
   margin: 0px 0px 2rem 0px;
-  background-color: #2d3250;
+  background-color: #0e1b51;
   transition: font-size 0.3s 0s ease, background-color 0.3s 0s ease,
     color 0.3s 0s ease;
   cursor: pointer;
@@ -80,13 +102,70 @@ p {
 }
 .card:hover {
   border-radius: 15px;
-  box-shadow: 5px 5px 13px #858cb4, -5px -5px 13px #858cb4;
+  box-shadow: 3px 3px 13px #67c1e8, -3px -3px 13px #67c1e8;
+  transform: scale(1.1);
 }
 .card:hover img {
   border-radius: 15px 15px 0px 0px;
 }
 .card:hover h2 {
   font-size: 2rem;
-  background-color: #f09850;
-  color: #2d3250;
+  background-color: #ffecd6;
+  color: #0e1b51;
+}
+.card ol {
+  list-style: disc;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+  font-family: "Domine", serif;
+}
+.card ol li {
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: color 0.2s 0s ease;
+}
+.card ol li::marker {
+  margin: 0;
+  transition: color 0.2s 0s ease;
+}
+.card ol li::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #0e1b51;
+  border-radius: 5px;
+  transform: scale(0);
+  transform-origin: left;
+  transition: transform 0.3s 0s ease;
+}
+.card ol li:hover::before {
+  transform: scale(1);
+}
+.card ol li:hover::marker {
+  color: #0e1b51;
+}
+.card2,
+.card3 {
+  filter: blur(3px) grayscale(100%);
+}
+.card2 h2,
+.card3 h2 {
+  cursor: default;
+}
+.card2:hover,
+.card3:hover {
+  filter: blur(0) grayscale(100%);
+  box-shadow: none;
+}
+.coming-soon {
+  margin-top: 2.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.6rem;
+  text-shadow: 2px 2px black;
 }
