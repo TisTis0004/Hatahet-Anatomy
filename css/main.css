@@ -111,7 +111,6 @@ main {
   bottom: -10px;
   left: -1rem;
   background-color: #fff;
-  /* background-image: linear-gradient(to right, #2a719f, #17285c, #181133); */
 }
 .box-cards {
   display: flex;
@@ -165,7 +164,7 @@ p {
   color: #0e1b51;
 }
 .card ol {
-  list-style: disc;
+  /* list-style: upper-roman; */
   list-style-position: outside;
   margin: 0;
   padding: 0;
@@ -201,7 +200,7 @@ p {
 .card ol li:hover::marker {
   color: #0e1b51;
 }
-/* .card2,
+.card2,
 .card3 {
   filter: blur(2px) grayscale(100%);
 }
@@ -213,7 +212,7 @@ p {
 .card3:hover {
   filter: blur(0) grayscale(100%);
   box-shadow: none;
-} */
+}
 .coming-soon {
   margin-top: 2.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;

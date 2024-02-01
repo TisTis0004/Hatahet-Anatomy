@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style></style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hatahet Anatomy</title>
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/dropdown.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -41,28 +43,43 @@
           <a href="#"
             ><li>
               Home
-              <div></div></li
+              <div class="line"></div></li
           ></a>
           <a id="videosBtn" href="#videos"
             ><li>
               Videos
-              <div></div></li
+              <div class="line"></div></li
           ></a>
           <a id="sheetsBtn" href="#sheets"
             ><li>
               Sheets
-              <div></div></li
+              <div class="line"></div></li
           ></a>
-          <a href="#"
-            ><li>
+          <li class="list"
+            ><li class="drop-head">
               Summaries
-              <div></div></li
-          ></a>
-          <a href="#"
-            ><li>
+              <div class="arrow"></div>
+              <ul class="drop-list">
+                <li><a href="#">koko</a></li>
+                <li><a href="#">wawa</a></li>
+                <li><a href="#">koko</a></li>
+                <li><a href="#">wawa</a></li>
+              </ul>
+              <div class="line"></div>
+            </li>
+          </li>
+          <li class="list"
+            ><li class="drop-head">
               Useful Sites
-              <div></div></li
-          ></a>
+              <div class="arrow"></div>
+              <ul class="drop-list">
+                <li><a href="#">koko</a></li>
+                <li><a href="#">wawa</a></li>
+                <li><a href="#">koko</a></li>
+                <li><a href="#">wawa</a></li>
+              </ul>
+              <div class="line"></div></li
+          ></li>
         </ul>
       </nav>
       <button class="quiz">Test Your Might</button>
@@ -121,25 +138,25 @@
       <div class="card card2">
         <img width="100%" height="173px" src="../assets/second.png" alt="" />
         <h2>Second</h2>
-        <!-- <p class="coming-soon">COMING SOON...</p> -->
-        <ol>
+        <p class="coming-soon">COMING SOON...</p>
+        <!-- <ol>
           <li>Muscular system</li>
           <li>Cardiovascular system</li>
           <li>Respiratory system</li>
           <li>Gastrointestinal system</li>
-        </ol>
+        </ol> -->
       </div>
       <div class="card card3">
         <img width="100%" height="173px" src="../assets/Final.png" alt="" />
         <h2>Final</h2>
-        <!-- <p class="coming-soon">COMING SOON...</p> -->
-        <ol>
+        <p class="coming-soon">COMING SOON...</p>
+        <!-- <ol>
           <li>Urinary system</li>
           <li>Reproductive system</li>
           <li>Immune system</li>
           <li>Nervous system</li>
           <li>Embryology</li>
-        </ol>
+        </ol> -->
       </div>
     </div>
     <span id="sheets"></span>
@@ -183,6 +200,7 @@
         </ol> -->
       </div>
     </div>
+    <p hidden>2</p>
     <p>2</p>
     <p>2</p>
     <p>2</p>
@@ -193,7 +211,6 @@
     <p>2</p>
     <p>2</p>
     <p>2</p>
-    <p>2</p>
-    <script src="../script.js"></script>
+    <script type="" src="../script.js"></script>
   </body>
 </html>

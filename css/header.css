@@ -25,15 +25,17 @@ nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0;
 }
-nav ul a {
+nav ul a,
+.drop-head {
   color: #fff;
   text-decoration: none;
   font-size: 1.4rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
 }
-nav ul a li div {
+.line {
   position: absolute;
   width: 100%;
   height: 5px;
@@ -43,7 +45,7 @@ nav ul a li div {
   transition: transform 0.2s 0s ease;
 }
 nav ul a li {
-  transition: transform 0.1s ease-in-out;
+  transition: transform 0.1s ease;
 }
 nav ul a li:hover > * {
   transform: scaleX(1);
@@ -80,5 +82,4 @@ header button:active {
   box-shadow: none;
   background-color: #280073;
   border-color: #280073;
-  /* color: #726f75; */
 }
