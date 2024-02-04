@@ -23,3 +23,6 @@ sheetsBtn.addEventListener("click", function () {
     boxTitle[1].style.transition = "transform 0.3s 0.1s ease";
   }, 295);
 });
+const year = document.querySelector("#year");
+const d = new Date();
+year.innerText = d.getFullYear();

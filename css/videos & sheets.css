@@ -1,0 +1,181 @@
+* {
+  scroll-behavior: smooth;
+}
+#first {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #dcbc89;
+  color: #fff;
+  /* height: 120vh; */
+}
+#second {
+  background-color: #d77f77;
+}
+#final {
+  background-color: #d0849f;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: #e2e1e1;
+  font-size: 2.4rem;
+  width: fit-content;
+  padding: 1rem 2rem;
+  margin-left: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000000;
+  text-align: center;
+  border: 10px solid #000000;
+  border-radius: 2rem;
+}
+.videos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 4rem 0 10rem 0;
+  gap: 50px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #faf6f2;
+  text-decoration: none;
+  transition: box-shadow 0.3s 0s ease, transform 0.3s 0s ease;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.card img {
+  border-radius: 8px 8px 0 0;
+  border-bottom: 5px solid black;
+}
+.card p {
+  color: black;
+  text-transform: capitalize;
+  padding: 0rem 0.5rem;
+  font-size: 1.2rem;
+  font-family: "Protest Riot", sans-serif;
+}
+.card:hover {
+  box-shadow: 3px 3px 0px #000000;
+  transform: scale(1.05);
+}
+.box-title-container {
+  width: 89.5%;
+  margin: 6rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: linear-gradient(#a07a3c, #c09b60, #d4b37e);
+  border-radius: 1rem;
+  height: 80px;
+}
+h2 {
+  font-family: "Cairo", sans-serif;
+}
+/* h2 {
+  width: fit-content;
+  background-color: #fff;
+  color: #cf902b;
+  font-family: "Cairo", sans-serif;
+  padding: 1rem;
+  border: 10px solid #cf902b;
+  border-radius: 1rem;
+  margin: 60px auto;
+  box-shadow: 5px 5px 0px #000000;
+} */
+h1,
+h2 {
+  cursor: default;
+}
+/* Muscualr System */
+#muscular-container {
+  background-color: #d77f77;
+}
+#muscular-head {
+  border-color: #d74538;
+  color: #d74538;
+}
+#muscualr-videos a img {
+  filter: saturate(0.6);
+}
+/* Cardiovascular System */
+#cardiovascular-container {
+  background-color: #95419e;
+  padding-top: 1rem;
+}
+#cardiovascular-head {
+  border-color: #6d0187;
+  color: #6d0187;
+}
+/* Respiratory system */
+#respiratory-container {
+  background-color: #529ec4;
+  padding-top: 1rem;
+}
+#respiratory-head {
+  border-color: #0082c3;
+  color: #0078b4;
+}
+/* Gastrointestinal system */
+#gastrointestinal-container {
+  background-color: #40b394;
+  padding-top: 1rem;
+}
+#gastrointestinal-head {
+  border-color: #01e6a9;
+  color: #01e6a9;
+}
+#gastrointestinal-videos {
+  filter: saturate(0.6);
+}
+/* Unariy system */
+#urinary-container {
+  background-color: #d0849f;
+}
+#urinary-head {
+  border-color: #d25682;
+  color: #d25682;
+}
+#urinary-videos {
+  filter: saturate(0.75);
+}
+/* Reproductive */
+#reproductive-container {
+  background-image: linear-gradient(#3401cc, #e80094);
+  padding-top: 1rem;
+}
+#reproductive-head {
+  border-color: #e80094;
+  color: #3401cc;
+}
+/* Nervous system */
+#nervous-container {
+  background-color: #033d66;
+  padding-top: 1rem;
+}
+#nervous-head {
+  border-color: #3e9ae8;
+  color: #3e9ae8;
+}
+/* Embryology */
+#embryology-container {
+  background-color: #651a1a;
+  padding-top: 1rem;
+}
+#embryology-head {
+  border-color: #af1100;
+  color: #af1100;
+}
