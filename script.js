@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const arTitle = document.querySelector(".fade-in-right");
   engTitle.classList.add("is-visible");
   arTitle.classList.add("is-visible");
+  window.scrollTo({
+    top: 0,
+  });
 });
 const videosBtn = document.querySelector("#videosBtn");
 const sheetsBtn = document.querySelector("#sheetsBtn");
