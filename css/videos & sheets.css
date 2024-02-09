@@ -5,15 +5,15 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #002845;
+  background-color: #181133;
   color: #fff;
   /* height: 120vh; */
 }
 #second {
-  background-color: #002845;
+  background-color: #181133;
 }
 #final {
-  background-color: #002845;
+  background-color: #181133;
 }
 body {
   padding: 0;
@@ -28,7 +28,7 @@ main {
   border: 10px solid #bf8221;
 }
 h1 {
-  background-color: #04c9c9;
+  background-color: #6ab9ee;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -82,13 +82,10 @@ h1 {
   transform: scale(1.05);
 }
 h2 {
-  font-family: "Cairo", sans-serif;
-}
-h2 {
   width: fit-content;
   background-color: #fff;
   color: #bf8221;
-  font-family: "Cairo", sans-serif;
+  font-family: sans-serif;
   font-size: 2rem;
   padding: 1rem;
   border: 10px solid #bf8221;

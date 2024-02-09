@@ -6,10 +6,12 @@
   background-color: #002845;
   color: white;
   padding: 2rem 1.5rem;
+  box-sizing: border-box;
 }
 .footer p {
   font-size: 1.2rem;
   font-family: "Cairo", sans-serif;
+  margin: 0;
 }
 .footer p a:first-child {
   color: #59ffff;

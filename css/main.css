@@ -27,9 +27,12 @@ main {
   font-weight: normal;
   padding-left: 40px;
 }
+.english-title > span:first-child {
+  font-size: 3.1rem;
+}
 .arabic-title,
 .english-title {
-  font-size: 3rem;
+  font-size: 1.85rem;
 }
 .arabic-title {
   text-align: right;
@@ -115,6 +118,7 @@ main {
   display: flex;
   justify-content: space-around;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 .card {
   display: flex;

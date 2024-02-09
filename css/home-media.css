@@ -1,0 +1,30 @@
+@media (max-width: 1024px) {
+  .arabic-title,
+  .english-title,
+  .arabic-title span,
+  .english-title span {
+    font-size: 1.5rem;
+  }
+  .english-title > span:first-child {
+    font-size: 2.5rem;
+  }
+  .box-title {
+    font-size: 2.5rem;
+  }
+  .card {
+    width: 250px;
+    height: 350px;
+  }
+  .card h2 {
+    font-size: 1.4rem;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card:hover h2 {
+    font-size: 1.7rem;
+  }
+  .card ol li {
+    font-size: 1rem;
+  }
+}
