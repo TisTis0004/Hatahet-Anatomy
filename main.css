@@ -200,6 +200,9 @@ p {
 .card ol li:hover::before {
   transform: scale(1);
 }
+ol a li {
+  color: white;
+}
 h2 a {
   text-decoration: none;
   color: #e2e2e2;
