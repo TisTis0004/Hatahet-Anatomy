@@ -29,3 +29,12 @@ sheetsBtn.addEventListener("click", function () {
 const year = document.querySelector("#year");
 const d = new Date();
 year.innerText = d.getFullYear();
+const contactIcons = document.getElementById("contact-icons");
+function showContact() {
+  contactIcons.style.transform = "rotateY(0)";
+  setTimeout(() => {
+    contactIcons.style.transformOrigin = "right";
+    contactIcons.style.transform = "rotateY(90deg)";
+  }, 1000);
+  contactIcons.style.transformOrigin = "left";
+}
