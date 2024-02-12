@@ -35,14 +35,14 @@ const contactIconsBackground = document.getElementById(
 );
 function showContact() {
   contactIconsBackground.style.transform = "rotateY(0)";
-  for (let icon of contactIcons) {
-    icon.style.color = "#002845";
-  }
+  // for (let icon of contactIcons) {
+  //   icon.style.color = "#002845";
+  // }
   setTimeout(() => {
     contactIconsBackground.style.transformOrigin = "right";
     contactIconsBackground.style.transform = "rotateY(90deg)";
-    for (let icon of contactIcons) icon.style.color = "#FFF";
-  }, 1800);
+    // for (let icon of contactIcons) icon.style.color = "#FFF";
+  }, 1100);
   contactIconsBackground.style.transformOrigin = "left";
 }
 // contactIcons[0].addEventListener("mouseenter", () => {
@@ -77,4 +77,3 @@ function showContact() {
 //   contactIcons[3].style.transition = "color 0.5s 0s ease";
 //   contactIcons[3].style.color = "#FFF";
 // });
-const summaries = document.querySelectorAll(".summaries-cnt"); // 9 Systems
