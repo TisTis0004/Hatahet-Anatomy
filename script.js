@@ -45,35 +45,36 @@ function showContact() {
   }, 1800);
   contactIconsBackground.style.transformOrigin = "left";
 }
-contactIcons[0].addEventListener("mouseenter", () => {
-  contactIcons[0].style.transition = "color 0.5s 0s ease";
-  contactIcons[0].style.color = "#ff0000";
-});
-contactIcons[1].addEventListener("mouseenter", () => {
-  contactIcons[1].style.transition = "color 0.5s 0s ease";
-  contactIcons[1].style.color = "#23a8e9";
-});
-contactIcons[2].addEventListener("mouseenter", () => {
-  contactIcons[2].style.transition = "color 0.5s 0s ease";
-  contactIcons[2].style.color = "#0866ff";
-});
-contactIcons[3].addEventListener("mouseenter", () => {
-  contactIcons[3].style.transition = "color 0.5s 0s ease";
-  contactIcons[3].style.color = "#ffdd00";
-});
-contactIcons[0].addEventListener("mouseleave", () => {
-  contactIcons[0].style.transition = "color 0.5s 0s ease";
-  contactIcons[0].style.color = "#FFF";
-});
-contactIcons[1].addEventListener("mouseleave", () => {
-  contactIcons[1].style.transition = "color 0.5s 0s ease";
-  contactIcons[1].style.color = "#FFF";
-});
-contactIcons[2].addEventListener("mouseleave", () => {
-  contactIcons[2].style.transition = "color 0.5s 0s ease";
-  contactIcons[2].style.color = "#FFF";
-});
-contactIcons[3].addEventListener("mouseleave", () => {
-  contactIcons[3].style.transition = "color 0.5s 0s ease";
-  contactIcons[3].style.color = "#FFF";
-});
+// contactIcons[0].addEventListener("mouseenter", () => {
+//   contactIcons[0].style.transition = "color 0.5s 0s ease";
+//   contactIcons[0].style.color = "#ff0000";
+// });
+// contactIcons[1].addEventListener("mouseenter", () => {
+//   contactIcons[1].style.transition = "color 0.5s 0s ease";
+//   contactIcons[1].style.color = "#23a8e9";
+// });
+// contactIcons[2].addEventListener("mouseenter", () => {
+//   contactIcons[2].style.transition = "color 0.5s 0s ease";
+//   contactIcons[2].style.color = "#0866ff";
+// });
+// contactIcons[3].addEventListener("mouseenter", () => {
+//   contactIcons[3].style.transition = "color 0.5s 0s ease";
+//   contactIcons[3].style.color = "#ffdd00";
+// });
+// contactIcons[0].addEventListener("mouseleave", () => {
+//   contactIcons[0].style.transition = "color 0.5s 0s ease";
+//   contactIcons[0].style.color = "#FFF";
+// });
+// contactIcons[1].addEventListener("mouseleave", () => {
+//   contactIcons[1].style.transition = "color 0.5s 0s ease";
+//   contactIcons[1].style.color = "#FFF";
+// });
+// contactIcons[2].addEventListener("mouseleave", () => {
+//   contactIcons[2].style.transition = "color 0.5s 0s ease";
+//   contactIcons[2].style.color = "#FFF";
+// });
+// contactIcons[3].addEventListener("mouseleave", () => {
+//   contactIcons[3].style.transition = "color 0.5s 0s ease";
+//   contactIcons[3].style.color = "#FFF";
+// });
+const summaries = document.querySelectorAll(".summaries-cnt"); // 9 Systems
