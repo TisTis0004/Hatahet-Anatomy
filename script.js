@@ -35,6 +35,6 @@ function showContact() {
   setTimeout(() => {
     contactIcons.style.transformOrigin = "right";
     contactIcons.style.transform = "rotateY(90deg)";
-  }, 1000);
+  }, 1800);
   contactIcons.style.transformOrigin = "left";
 }
