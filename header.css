@@ -85,24 +85,21 @@ header button:active {
 } */
 .contact-btn {
   border: none;
-  padding: 0.4rem;
-  width: 150px;
+  /* padding: 0.4rem; */
+  width: 170px;
   height: 45px;
   border-radius: 0.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  background-color: #fff;
-  color: #61d5d5;
-  border: 3px solid #61d5d5;
+  background-color: #8600fb;
+  color: #fff;
   cursor: pointer;
   transition: color 0.2s 0s ease-in-out, background-color 0.2s 0s ease-in-out,
     transform 0.2s 0s ease-in-out, box-shadow 0.2s 0s ease-in-out;
 }
 .contact-btn:hover {
-  background-color: #61d5d5;
-  color: white;
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: 3px 3px 5px black;
 }
 .contact-btn:active {
