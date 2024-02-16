@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .arabic-title,
   .english-title,
   .arabic-title span,
@@ -8,8 +8,12 @@
   .english-title > span:first-child {
     font-size: 2.5rem;
   }
-  .box-title {
-    font-size: 2.5rem;
+  .line {
+    height: 3px;
+  }
+  .box-title,
+  .about-title {
+    font-size: 2.2rem;
   }
   .card {
     width: 250px;
@@ -26,5 +30,23 @@
   }
   .card ol li {
     font-size: 1rem;
+  }
+  nav ul a li {
+    font-size: 1rem;
+  }
+  nav ul a,
+  .drop-head {
+    font-size: 1rem;
+  }
+  .contact-btn {
+    width: 150px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+  #footer p {
+    font-size: 1rem;
+  }
+  .footer div a svg {
+    width: 35px;
   }
 }

@@ -85,7 +85,6 @@ header button:active {
 } */
 .contact-btn {
   border: none;
-  /* padding: 0.4rem; */
   width: 170px;
   height: 45px;
   border-radius: 0.5rem;
