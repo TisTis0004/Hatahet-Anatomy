@@ -31,6 +31,9 @@
   .card ol li {
     font-size: 1rem;
   }
+  .box-title::after {
+    background-color: #fff;
+  }
   nav ul a li {
     font-size: 1rem;
   }
