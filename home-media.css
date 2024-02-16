@@ -134,8 +134,8 @@
     width: 35px;
   }
 }
-@media (width: 499px) {
+@media (max-width: 499px) {
   .box-cards .card {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
 }
