@@ -5,6 +5,87 @@
   .english-title span {
     font-size: 1.5rem;
   }
+  main {
+    width: 1000px;
+  }
+  /* .welcome-img {
+    width: 815px;
+    height: 89vh;
+  }
+  .welcome-img video {
+    width: 815px;
+  } */
+  .english-title > span:first-child {
+    font-size: 2.5rem;
+  }
+  .line {
+    height: 3px;
+  }
+  .box-title,
+  .about-title {
+    font-size: 2.2rem;
+  }
+  .card {
+    width: 250px;
+    height: 350px;
+  }
+  .card h2 {
+    font-size: 1.4rem;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card:hover h2 {
+    font-size: 1.7rem;
+  }
+  .card ol li {
+    font-size: 1rem;
+  }
+  .box-title::after {
+    background-color: #fff;
+  }
+  nav ul a li {
+    font-size: 1rem;
+  }
+  nav ul a,
+  .drop-head {
+    font-size: 1rem;
+  }
+  .contact-btn {
+    width: 150px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+  #footer p {
+    font-size: 1rem;
+  }
+  .footer div a svg {
+    width: 35px;
+  }
+}
+@media (max-width: 950px) {
+  header {
+    width: 1000px;
+  }
+}
+@media (max-width: 769px) {
+  main {
+    width: 1000px;
+  }
+  /* .welcome-img {
+    width: 850px;
+    height: 80vh;
+  }
+  .welcome-img video {
+    width: 850px;
+  } */
+  .arabic-title,
+  .english-title,
+  .arabic-title span,
+  .english-title span {
+    font-size: 1.5rem;
+    color: red;
+  }
   .english-title > span:first-child {
     font-size: 2.5rem;
   }
