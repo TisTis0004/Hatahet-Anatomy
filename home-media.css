@@ -58,9 +58,6 @@
   #footer {
     width: 1020px;
   }
-  .box-cards {
-    width: 1000px;
-  }
 }
 @media (max-width: 1000px) {
   main {
