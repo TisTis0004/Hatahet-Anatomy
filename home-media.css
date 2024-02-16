@@ -6,15 +6,8 @@
     font-size: 1.5rem;
   }
   main {
-    width: 1000px;
+    width: 1024px;
   }
-  /* .welcome-img {
-    width: 815px;
-    height: 89vh;
-  }
-  .welcome-img video {
-    width: 815px;
-  } */
   .english-title > span:first-child {
     font-size: 2.5rem;
   }
@@ -62,9 +55,21 @@
   .footer div a svg {
     width: 35px;
   }
+  #footer {
+    width: 1020px;
+  }
+  .box-cards {
+    width: 1000px;
+  }
 }
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
+  main {
+    width: 1024px;
+  }
   header {
+    width: 1000px;
+  }
+  #footer {
     width: 1000px;
   }
 }
@@ -72,19 +77,14 @@
   main {
     width: 1000px;
   }
-  /* .welcome-img {
-    width: 850px;
-    height: 80vh;
+  header {
+    width: 1000px;
   }
-  .welcome-img video {
-    width: 850px;
-  } */
   .arabic-title,
   .english-title,
   .arabic-title span,
   .english-title span {
     font-size: 1.5rem;
-    color: red;
   }
   .english-title > span:first-child {
     font-size: 2.5rem;
@@ -126,6 +126,9 @@
     width: 150px;
     height: 45px;
     font-size: 1.2rem;
+  }
+  #footer {
+    width: 1000px;
   }
   #footer p {
     font-size: 1rem;
