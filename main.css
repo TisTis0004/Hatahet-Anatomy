@@ -5,7 +5,7 @@
 body {
   background-color: #181133;
   overflow-x: hidden;
-  touch-action: pinch-zoom;
+  touch-action: pan-y;
 }
 a {
   text-decoration: none;
