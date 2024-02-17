@@ -105,3 +105,38 @@ header button:active {
   transform: translateY(0);
   box-shadow: none;
 }
+.bars {
+  display: none;
+}
+.dropdown-bars {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 200px;
+  /* height: 0; */
+  background-color: #1f0039;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown-bars.open {
+  height: auto;
+  display: flex;
+}
+.dropdown-bars .drop-list {
+  z-index: 1000;
+  right: 90px;
+  top: 0;
+}
+.dropdown-bars nav {
+  flex-direction: column;
+}
+.dropdown-bars nav ul {
+  flex-direction: column;
+}
+.dropdown-bars .contact-link {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10px;
+}

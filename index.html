@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="dropdown.css" />
     <link rel="stylesheet" href="About.css" />
     <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="home-media.css">
+    <link rel="stylesheet" href="xs.css">
+    <link rel="stylesheet" href="sm.css">
+    <link rel="stylesheet" href="md.css">
+    <link rel="stylesheet" href="lg.css">
+    <link rel="stylesheet" href="xl.css">
+    <link rel="stylesheet" href="2xl.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,7 +52,7 @@
           height="100px"
         />
       </a>
-      <nav>
+      <nav id="big-header">
         <ul>
           <a href="#"
             ><li>
@@ -122,9 +127,6 @@
                   ><span>ChatGPT (use it, it's FREE)</span></a
                 >
               </li>
-              <!-- <li>
-                <a target="_blank" href="#"><span>Books</span></a>
-              </li> -->
               <li>
                 <a target="_blank" href="https://www.ilovepdf.com/"
                   ><span>iLovePDF</span></a
@@ -139,7 +141,103 @@
           ></a>
         </ul>
       </nav>
-      <a onclick="showContact()" class="contact-link" href="#footer"><button onclick="showContact()" class="contact-btn">Contact Tutor</button></a>
+      <a onclick="showContact()" class="contact-link" href="#footer"><button onclick="showContact()" class="contact-btn big">Contact Tutor</button></a>
+      <svg class="bars" xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+      <div class="dropdown-bars">
+        <nav>
+          <ul>
+            <a href="#"
+              ><li>
+                Home
+                <div class="line"></div></li
+            ></a>
+            <a id="videosBtn" href="#videos"
+              ><li>
+                Videos
+                <div class="line"></div></li
+            ></a>
+            <a id="sheetsBtn" href="#sheets"
+              ><li>
+                Sheets
+                <div class="line"></div></li
+            ></a>
+            <a href="testbank.html"
+              ><li class="quiz">
+                Test Bank
+                <div class="line"></div></li
+            ></a>
+            <li class="drop-head">
+              Summaries
+              <ul class="drop-list">
+                <li>
+                  <a href="sk.html" target="_blank"><span>Skeletal system (1)</span></a>
+                </li>
+                <li>
+                  <a href="mus.html" target="_blank"><span>Muscular system (0)</span></a>
+                </li>
+                <li>
+                  <a href="card.html" target="_blank"><span>Cardiovascular system (0)</span></a>
+                </li>
+                <li>
+                  <a href="resp.html" target="_blank"><span>Respiratory system (0)</span></a>
+                </li>
+                <li>
+                  <a href="gas.html" target="_blank"><span>Gastrointestinal system (0)</span></a>
+                </li>
+                <li>
+                  <a href="urin.html" target="_blank"><span>Urinary system (0)</span></a>
+                </li>
+                <li>
+                  <a href="repro.html" target="_blank"><span>Reproductive system (0)</span></a>
+                </li>
+                <li>
+                  <a href="nervous.html" target="_blank"><span>Nervous system (0)</span></a>
+                </li>
+                <li>
+                  <a href="embr.html" target="_blank"><span>Embryology (0)</span></a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="drop-head">
+              Useful Sources
+              <ul class="drop-list">
+                <li>
+                  <a target="_blank" href="https://www.kenhub.com/"
+                    ><span>KenHub</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/@TheNotedAnatomist"
+                    ><span>The Noted Anatomist</span></a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="https://chat.openai.com/"
+                    ><span>ChatGPT (use it, it's FREE)</span></a
+                  >
+                </li>
+                <!-- <li>
+                  <a target="_blank" href="#"><span>Books</span></a>
+                </li> -->
+                <li>
+                  <a target="_blank" href="https://www.ilovepdf.com/"
+                    ><span>iLovePDF</span></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <a href="#about"
+              ><li class="quiz">
+                About
+                <div class="line"></div></li
+            ></a>
+          </ul>
+        </nav>
+        <a onclick="showContact()" class="contact-link" href="#footer"><button onclick="showContact()" class="contact-btn">Contact Tutor</button></a>
+      </div>
     </header>
     <main>
       <div class="welcome">
@@ -307,5 +405,6 @@
       </div>
     </div>
     <script type="" src="script.js"></script>
+    <script type="" src="dropdown.js"></script>
   </body>
 </html>
