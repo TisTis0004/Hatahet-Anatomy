@@ -20,6 +20,9 @@
     width: 140px;
     height: 35px;
   }
+  .dropdown-bars > *:active .dropdown-bars {
+    display: none;
+  }
   .dropdown-bars nav ul li {
     font-size: 1.2rem;
   }
@@ -66,11 +69,14 @@
     padding: 0.7rem;
   }
   .footer p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .contact-icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+  }
+  #contact-icons-background {
+    width: 140px;
   }
 }
 /* @media (min-width: 390px) {
