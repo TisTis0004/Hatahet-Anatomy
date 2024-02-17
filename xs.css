@@ -308,6 +308,9 @@
     height: 130vh;
     width: 100%;
   }
+  .arabic-title {
+    font-size: 1.7rem;
+  }
 }
 @media (min-width: 2041px) {
   nav ul a,
