@@ -65,9 +65,6 @@ main {
   top: 0;
   border-radius: 0px 0px 5px 1000px;
   border-left: 5px solid #2a719f;
-  background-repeat: no-repeat;
-  background-position: 10% 10%;
-  background-size: cover;
   width: 815px;
   height: 89vh;
   overflow: hidden;
