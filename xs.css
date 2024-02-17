@@ -89,11 +89,11 @@
     font-size: 2rem;
   }
   .about-title-background {
-    width: 50%;
+    width: 60%;
     height: 60px;
   }
   .about-title {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
   .box-cards {
     flex-direction: column;
@@ -112,6 +112,15 @@
   }
   .card img {
     height: 140px;
+  }
+  .about-card h2 {
+    font-size: 2.1rem;
+  }
+  .about-card p {
+    font-size: 1.2rem;
+  }
+  .about-card ul li {
+    font-size: 0.7rem;
   }
 }
 /* @media (min-width: 390px) {
