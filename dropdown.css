@@ -8,7 +8,7 @@
   position: absolute;
   height: fit-content;
   transition: display 0.3s 0s ease;
-  width: 220%;
+  width: 190%;
   border-radius: 0px 0px 5px 5px;
 }
 .drop-list li a {
