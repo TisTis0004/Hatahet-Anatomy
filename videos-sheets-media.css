@@ -1,0 +1,37 @@
+@media (max-width: 704px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 585px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .footer {
+    height: 150px;
+    padding: 0.7rem;
+  }
+  .footer p {
+    font-size: 0.3rem;
+    color: red;
+  }
+}
+@media (max-width: 490px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+  h2 {
+    font-size: 0.9rem;
+  }
+  .card p {
+    font-size: 0.9rem;
+  }
+}
