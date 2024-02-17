@@ -58,7 +58,7 @@
     flex-direction: row;
     height: 300px;
     /* flex-wrap: wrap; */
-    min-width: 400px;
+    min-width: 370px;
   }
   .english-title > span:first-child {
     font-size: 1.3rem;
