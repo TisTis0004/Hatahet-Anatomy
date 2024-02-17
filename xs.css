@@ -209,6 +209,9 @@
     width: 100%;
     justify-content: space-between;
   }
+  .arabic-title {
+    font-size: 1.5rem;
+  }
   .logo {
     width: 100px;
     height: 50px;
