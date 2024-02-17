@@ -60,6 +60,9 @@
   .english-title > span:first-child {
     font-size: 1.3rem;
   }
+  .welcome-arabic {
+    font-size: 1.3rem;
+  }
   .arabic-title,
   .english-title {
     font-size: 1rem;
@@ -137,7 +140,7 @@
     height: 35px;
   }
   main {
-    width: 780px;
+    width: 1000px;
   }
   .welcome-img {
     width: 100%;
@@ -299,11 +302,81 @@
     width: 100%;
   }
   .welcome-img video {
-    height: 120vh;
+    height: 110vh;
     width: 100%;
   }
 }
-
+@media (min-width: 2041px) {
+  nav ul a,
+  .drop-head {
+    font-size: 1.9rem;
+  }
+  .contact-btn {
+    font-size: 2.2rem;
+    height: 90px;
+    width: 250px;
+  }
+  .welcome-img {
+    height: 90vh;
+    width: 100%;
+  }
+  .welcome-img video {
+    height: 130vh;
+    width: 100%;
+  }
+  .english-title > span:first-child {
+    font-size: 3.5rem;
+  }
+  .welcome-arabic {
+    font-size: 3.5rem;
+  }
+  .arabic-title,
+  .english-title {
+    font-size: 2.5rem;
+  }
+  .card {
+    width: 350px;
+    height: 500px;
+  }
+  .card img {
+    height: 200px;
+  }
+  .card h2 {
+    font-size: 2.5rem;
+  }
+  .card ol li {
+    font-size: 1.6rem;
+  }
+  .about-card h2 {
+    font-size: 3.5rem;
+  }
+  .about-card p {
+    font-size: 2.7rem;
+    padding-right: 1.5rem;
+  }
+  .about-card ul li {
+    font-size: 2.7rem;
+  }
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .box-title-container {
+    width: 70%;
+    height: 60px;
+  }
+  .box-title {
+    font-size: 3.5rem;
+  }
+  .about-title-background {
+    width: 40%;
+    height: 60px;
+    margin-top: -50px;
+  }
+  .about-title {
+    font-size: 3rem;
+  }
+}
 /*
 @media (min-width: 1024px) {
 }
