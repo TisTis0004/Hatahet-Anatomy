@@ -1,3 +1,12 @@
+@media (max-width: 924px) {
+  .footer p {
+    font-size: 1rem;
+  }
+  .contact-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
 @media (max-width: 704px) {
   h1 {
     font-size: 2rem;
@@ -9,6 +18,10 @@
   }
   .footer p {
     font-size: 0.7rem;
+  }
+  .contact-icon {
+    width: 5px;
+    height: 5px;
   }
 }
 @media (max-width: 585px) {
@@ -33,6 +46,10 @@
     font-size: 0.9rem;
   }
   .footer p {
-    font-size: 0.8rem;
+    font-size: 0.4rem;
+  }
+  .contact-icon {
+    width: 15px;
+    height: 15px;
   }
 }
