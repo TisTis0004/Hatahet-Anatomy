@@ -125,7 +125,7 @@ header button:active {
 }
 .dropdown-bars .drop-list {
   z-index: 1000;
-  right: 90px;
+  right: 60px;
   top: 0;
 }
 .dropdown-bars nav {
