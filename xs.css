@@ -230,7 +230,7 @@
   }
   .welcome-img video {
     width: 100%;
-    height: 170vh;
+    height: 150vh;
   }
   .footer {
     height: 150px;
@@ -305,7 +305,7 @@
     width: 100%;
   }
   .welcome-img video {
-    height: 110vh;
+    height: 130vh;
     width: 100%;
   }
 }
