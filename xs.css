@@ -61,6 +61,12 @@
   .english-title {
     font-size: 1rem;
   }
+  .footer {
+    height: 150px;
+  }
+  .footer p {
+    font-size: 0.8rem;
+  }
 }
 /* @media (min-width: 390px) {
   header {
