@@ -7,6 +7,9 @@
     margin: 0 auto;
     margin-top: 1rem;
   }
+  .footer p {
+    font-size: 0.7rem;
+  }
 }
 @media (max-width: 585px) {
   h1 {
@@ -15,13 +18,8 @@
   h2 {
     font-size: 1.2rem;
   }
-  .footer {
-    height: 150px;
-    padding: 0.7rem;
-  }
   .footer p {
-    font-size: 0.3rem;
-    color: red;
+    font-size: 0.5rem;
   }
 }
 @media (max-width: 490px) {
@@ -33,5 +31,8 @@
   }
   .card p {
     font-size: 0.9rem;
+  }
+  .footer p {
+    font-size: 0.8rem;
   }
 }
