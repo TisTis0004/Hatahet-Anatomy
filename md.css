@@ -1,7 +1,6 @@
 @media (min-width: 476px) and (max-width: 768px) {
   header {
-    min-width: 470px;
-    max-width: 760px;
+    width: 768px;
     justify-content: space-between;
   }
   .logo {
@@ -126,5 +125,15 @@
   }
   .contact-btn {
     font-size: 1rem;
+  }
+}
+@media (min-width: 2040px) {
+  .welcome-img {
+    height: 90vh;
+    width: 100%;
+  }
+  .welcome-img video {
+    height: 120vh;
+    width: 100%;
   }
 }
