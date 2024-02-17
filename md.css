@@ -116,3 +116,8 @@
     font-size: 0.7rem;
   }
 }
+@media (min-width: 1364px) {
+  .contact-btn {
+    background-color: red;
+  }
+}
