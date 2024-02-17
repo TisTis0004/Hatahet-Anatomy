@@ -1,7 +1,7 @@
-@media (min-width: 640px) and (max-width: 768px) {
+@media (min-width: 476px) and (max-width: 768px) {
   header {
-    min-width: 300px;
-    max-width: 400px;
+    min-width: 470px;
+    max-width: 760px;
     justify-content: space-between;
   }
   .logo {
@@ -10,7 +10,6 @@
   }
   .contact-btn {
     font-size: 1rem;
-    background-color: red;
     width: 140px;
     height: 35px;
   }
@@ -117,7 +116,15 @@
   }
 }
 @media (min-width: 1364px) {
+  .welcome-img {
+    height: 80vh;
+    width: 100%;
+  }
+  .welcome-img video {
+    height: 90vh;
+    width: 100%;
+  }
   .contact-btn {
-    background-color: red;
+    font-size: 1.5rem;
   }
 }
