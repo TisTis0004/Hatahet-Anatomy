@@ -91,6 +91,7 @@
   .about-title-background {
     width: 60%;
     height: 60px;
+    margin-top: -110px;
   }
   .about-title {
     font-size: 2.1rem;
