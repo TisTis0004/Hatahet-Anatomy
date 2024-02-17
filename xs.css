@@ -63,6 +63,7 @@
   }
   .footer {
     height: 150px;
+    padding: 0.7rem;
   }
   .footer p {
     font-size: 0.8rem;
