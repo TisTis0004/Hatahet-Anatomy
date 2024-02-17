@@ -49,7 +49,7 @@
   }
   .welcome-img video {
     width: 100%;
-    height: 400px;
+    height: 450px;
   }
   .welcome {
     margin-top: 50px;
@@ -144,11 +144,11 @@
   }
   .welcome-img {
     width: 100%;
-    height: 60vh;
+    height: 80vh;
   }
   .welcome-img video {
     width: 100%;
-    height: 80vh;
+    height: 120vh;
   }
   .footer {
     height: 150px;
@@ -230,7 +230,7 @@
   }
   .welcome-img video {
     width: 100%;
-    height: 160vh;
+    height: 170vh;
   }
   .footer {
     height: 150px;
