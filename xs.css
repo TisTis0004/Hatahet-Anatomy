@@ -27,6 +27,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    height: 450px;
   }
   .welcome-img,
   .welcome-img video {
@@ -40,24 +41,25 @@
     border: none;
     border-radius: 0;
     min-width: 200px;
-    height: 200px;
+    height: 300px;
   }
   .welcome-img video {
     width: 100%;
     height: 400px;
   }
   .welcome {
-    margin-top: -100px;
+    margin-top: 50px;
     flex-direction: row;
+    height: 300px;
     /* flex-wrap: wrap; */
     min-width: 280px;
   }
   .english-title > span:first-child {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .arabic-title,
   .english-title {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 /* @media (min-width: 390px) {
