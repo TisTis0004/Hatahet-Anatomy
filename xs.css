@@ -36,8 +36,6 @@
   .welcome-img video {
     display: block;
     order: -1;
-    /* min-width: 320px;
-    max-width: 475px; */
     height: 300px;
   }
   span.test {
@@ -57,7 +55,6 @@
     margin-top: 50px;
     flex-direction: row;
     height: 300px;
-    /* flex-wrap: wrap; */
     min-width: 370px;
   }
   .english-title > span:first-child {
@@ -125,15 +122,8 @@
     font-size: 0.7rem;
   }
 }
-/* @media (min-width: 390px) {
-  header {
-    background: lime;
-  }
-} */
-/* @media (min-width: 640px) {
-}
-@media (min-width: 768px) {
-}
+
+/*
 @media (min-width: 1024px) {
 }
 @media (min-width: 1280px) {
