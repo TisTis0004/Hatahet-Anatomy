@@ -59,6 +59,9 @@ main {
   opacity: 1;
   transform: translateX(0);
 }
+.welcome-arabic {
+  font-size: 3.1rem;
+}
 .welcome-img {
   position: relative;
   right: 0;
