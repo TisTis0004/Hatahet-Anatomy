@@ -193,7 +193,7 @@ p {
 .card ol li::before {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 120%;
   height: 100%;
   z-index: -1;
   background-color: #0e1b51;
@@ -201,6 +201,7 @@ p {
   transform: scale(0);
   transform-origin: left;
   transition: transform 0.3s 0s ease;
+  left: -12px;
 }
 .card ol li:hover::before {
   transform: scale(1);
