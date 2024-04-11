@@ -48,7 +48,7 @@ h1 {
 }
 .videos {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 3rem 0;
   gap: 35px;
@@ -105,6 +105,10 @@ h2 {
 #muscular-head {
   border-color: #da5043;
   color: #da5043;
+}
+#muscualr-videos {
+  justify-content: left;
+  margin-left: 60px;
 }
 #muscualr-videos a img {
   filter: saturate(0.8);
