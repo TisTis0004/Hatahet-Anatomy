@@ -189,3 +189,9 @@ h2 {
   background-color: #4cb9e7;
   border-radius: 5px;
 }
+#muscular-container,
+#cardiovascular-container,
+#respiratory-container,
+#gastrointestinal-container {
+  height: 370px;
+}

@@ -217,15 +217,15 @@ h2 a {
 .card:hover h2 a {
   color: #0e1b51;
 }
-.card2,
-.card3 {
+.card3,
+.gray {
   filter: blur(2px) grayscale(100%);
 }
-.card2 h2,
+.gray h2,
 .card3 h2 {
   cursor: default;
 }
-.card2:hover,
+.gray:hover,
 .card3:hover {
   filter: blur(0) grayscale(100%);
   box-shadow: none;
