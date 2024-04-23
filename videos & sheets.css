@@ -135,6 +135,10 @@ h2 {
   border-color: #007bb4;
   color: #007bb4;
 }
+#respiratory-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
 /* Gastrointestinal system */
 #gastrointestinal-box {
   background-image: linear-gradient(#d8d7d7, #05c7a0);
