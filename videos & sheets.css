@@ -163,6 +163,10 @@ h2 {
 #urinary-videos {
   filter: saturate(0.75);
 }
+#urinary-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
 /* Reproductive */
 #reproductive-box {
   background-image: linear-gradient(#23018b, #e80094);
