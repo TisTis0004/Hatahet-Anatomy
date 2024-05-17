@@ -217,13 +217,13 @@ h2 a {
 .card:hover h2 a {
   color: #0e1b51;
 }
-.card3 {
+.final-card {
   filter: blur(2px) grayscale(100%);
 }
-.card3 h2 {
+.final-card h2 {
   cursor: default;
 }
-.card3:hover {
+.final-card:hover {
   filter: blur(0) grayscale(100%);
   box-shadow: none;
 }

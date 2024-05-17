@@ -149,7 +149,8 @@ h2 {
   color: #039679;
 }
 #gastrointestinal-videos {
-  filter: saturate(0.6);
+  justify-content: left;
+  margin-left: 60px;
 }
 /* Unariy system */
 #urinary-box {
@@ -175,6 +176,10 @@ h2 {
 #reproductive-head {
   border-color: #e80094;
   color: #3401cc;
+}
+#reproductive-videos {
+  justify-content: left;
+  margin-left: 60px;
 }
 /* Nervous system */
 #nervous-box {
