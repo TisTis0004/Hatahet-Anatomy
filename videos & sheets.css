@@ -152,6 +152,20 @@ h2 {
   justify-content: left;
   margin-left: 60px;
 }
+/*!===============================================================*/
+#Lymphatic-box {
+  background-image: linear-gradient(#d8d7d7, #05b65a);
+  border-color: #03964a;
+}
+#Lymphatic-head {
+  border-color: #03964a;
+  color: #03964a;
+}
+#Lymphatic-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+/*!===============================================================*/
 /* Unariy system */
 #urinary-box {
   background-image: linear-gradient(#d0849f, #8d0b4d);
@@ -186,6 +200,10 @@ h2 {
   background-image: linear-gradient(#1b507e, #121212);
   border-color: #000000;
 }
+#nervous-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
 #nervous-head {
   border-color: #000;
   color: #000;
@@ -194,6 +212,10 @@ h2 {
 #embryology-box {
   background-image: linear-gradient(#f97e6c, #5b0a0b);
   border-color: #420708;
+}
+#embryology-videos {
+  justify-content: left;
+  margin-left: 60px;
 }
 #embryology-head {
   border-color: #420708;
