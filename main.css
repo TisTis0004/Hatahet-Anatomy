@@ -217,7 +217,7 @@ h2 a {
 .card:hover h2 a {
   color: #0e1b51;
 }
-.final-card {
+/* .final-card {
   filter: blur(2px) grayscale(100%);
 }
 .final-card h2 {
@@ -226,7 +226,7 @@ h2 a {
 .final-card:hover {
   filter: blur(0) grayscale(100%);
   box-shadow: none;
-}
+} */
 .coming-soon {
   margin-top: 2.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
